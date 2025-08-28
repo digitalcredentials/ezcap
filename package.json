@@ -1,8 +1,8 @@
 {
-  "name": "@digitalbazaar/ezcap",
+  "name": "@digitalcredentials/ezcap",
   "version": "4.1.1-0",
   "description": "",
-  "homepage": "https://github.com/digitalbazaar/ezcap",
+  "homepage": "https://github.com/digitalcredentials/ezcap",
   "author": {
     "name": "Digital Bazaar, Inc.",
     "email": "support@digitalbazaar.com",
@@ -10,11 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/ezcap"
+    "url": "https://github.com/digitalcredentials/ezcap"
   },
   "bugs": {
-    "url": "https://github.com/digitalbazaar/ezcap/issues",
-    "email": "support@digitalbazaar.com"
+    "url": "https://github.com/digitalcredentials/ezcap/issues"
   },
   "license": "BSD-3-Clause",
   "type": "module",
