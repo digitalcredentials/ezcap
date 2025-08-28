@@ -1,8 +1,9 @@
 # @digitalcredentials/ezcap Changelog
 
-## 5.0.0 - 
+## 5.0.0 - 2025-08-27
 ### Changed
 - **BREAKING:** Fork from `@digitalbazaar/ezcap@4.1.0`
+- Update to use DCC versions of `http-client` and jsigs.
 
 ## 4.1.0 - 2024-01-01
 
