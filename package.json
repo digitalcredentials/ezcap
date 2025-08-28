@@ -1,6 +1,6 @@
 {
   "name": "@digitalcredentials/ezcap",
-  "version": "4.1.1-0",
+  "version": "5.0.0",
   "description": "",
   "homepage": "https://github.com/digitalcredentials/ezcap",
   "author": {
@@ -21,6 +21,9 @@
   "files": [
     "lib/**/*.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@digitalcredentials/http-client": "^5.0.4",
     "@digitalbazaar/http-signature-zcap-invoke": "^6.0.0",
