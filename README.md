@@ -1,4 +1,4 @@
-# ezcap
+# ezcap (_@digitalcredentials/ezcap_)
 
 [![Node.js CI](https://github.com/digitalbazaar/ezcap/workflows/Node.js%20CI/badge.svg)](https://github.com/digitalbazaar/ezcap/actions?query=workflow%3A%22Node.js+CI%22)
 
@@ -43,13 +43,13 @@ preferably via parties other than the implementer.
 To install from NPM:
 
 ```
-npm install @digitalbazaar/ezcap
+npm install @digitalcredentials/ezcap
 ```
 
 To install locally (for development):
 
 ```
-git clone https://github.com/digitalbazaar/ezcap.git
+git clone https://github.com/digitalcredentials/ezcap.git
 cd ezcap
 npm install
 ```
@@ -72,9 +72,9 @@ using that key material to instantiate a client designed to operate on a
 specific base URL.
 
 ```js
-import {ZcapClient} from '@digitalbazaar/ezcap';
-import * as didKey from '@digitalbazaar/did-method-key';
-import {Ed25519Signature2020} from '@digitalbazaar/ed25519-signature-2020';
+import {ZcapClient} from '@digitalcredentials/ezcap';
+import * as didKey from '@digitalcredentials/did-method-key';
+import {Ed25519Signature2020} from '@digitalcredentials/ed25519-signature-2020';
 const didKeyDriver = didKey.driver();
 
 // generate a DID Document and set of key pairs
@@ -459,22 +459,9 @@ An class that can be instantiated to create a suite capable of generating a
 Linked Data Signature. Its constructor must receive a `signer` instance
 that includes `.sign()` function and `id` and `controller` properties.
 
-**Kind**: global typedef  
-
-## Contribute
-
-See [the contribute file](https://github.com/digitalbazaar/bedrock/blob/master/CONTRIBUTING.md)! PRs accepted.
-
-If editing the README.md, please follow the
-[standard-readme](https://github.com/RichardLitt/standard-readme) specification.
-
-## Commercial Support
-
-Commercial support for this library is available upon request from
-Digital Bazaar: support@digitalbazaar.com
+**Kind**: global typedef
 
 ## License
-
 [New BSD License (3-clause)](LICENSE) © Digital Bazaar
 
 [Web Crypto API]: https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API

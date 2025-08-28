@@ -1,4 +1,8 @@
-# @digitalbazaar/ezcap Changelog
+# @digitalcredentials/ezcap Changelog
+
+## 5.0.0 - 
+### Changed
+- **BREAKING:** Fork from `@digitalbazaar/ezcap@4.1.0`
 
 ## 4.1.0 - 2024-01-01
 
