@@ -1,5 +1,9 @@
 # @digitalcredentials/ezcap Changelog
 
+## 5.1.0 - 2025-09-03
+### Added
+- Add support for binary `blob` objects to `request()`.
+
 ## 5.0.0 - 2025-08-27
 ### Changed
 - **BREAKING:** Fork from `@digitalbazaar/ezcap@4.1.0`
