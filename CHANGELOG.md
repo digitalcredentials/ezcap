@@ -1,6 +1,6 @@
 # @digitalcredentials/ezcap Changelog
 
-## 6.0.0 -
+## 6.0.0 - 2025-10-18
 ### Changed
 - **BREAKING**: Rename `blob` payload param to `body` to match upstream
   PR https://github.com/digitalbazaar/http-signature-zcap-invoke/pull/30/
