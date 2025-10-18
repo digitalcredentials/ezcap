@@ -188,6 +188,15 @@ const response = await zcapClient.write({capability, json: item});
 const writtenItem = await response.json();
 ```
 
+### Requesting with a non-JSON binary blob body
+
+```js
+const body = new Blob(['line 1\nline2\n'], {type: 'text/plain'})
+await zcapClient.request({
+  url, method: 'POST', body
+})
+```
+
 ### Requesting with a Root Capability
 
 In the event that the server API does not operate using HTTP GET and HTTP POST,

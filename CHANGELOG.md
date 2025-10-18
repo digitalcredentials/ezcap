@@ -1,5 +1,11 @@
 # @digitalcredentials/ezcap Changelog
 
+## 6.0.0 -
+### Changed
+- **BREAKING**: Rename `blob` payload param to `body` to match upstream
+  PR https://github.com/digitalbazaar/http-signature-zcap-invoke/pull/30/
+- **BREAKING**: By default, set the `action` to be the same as the http `method`.
+
 ## 5.1.0 - 2025-09-03
 ### Added
 - Add support for binary `blob` objects to `request()`.
