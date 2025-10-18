@@ -160,7 +160,7 @@ describe('ZcapClient', () => {
         await zcapClient.request({
           url: 'https://zcap.example/items',
           method: 'post',
-          blob
+          body: blob
         });
       } catch(e) {
         error = e;
@@ -192,7 +192,7 @@ describe('ZcapClient', () => {
           url: 'https://zcap.example/items',
           method: 'post',
           json,
-          blob
+          body: blob
         });
       } catch(e) {
         error = e;
@@ -220,7 +220,7 @@ describe('ZcapClient', () => {
       try {
         await zcapClient.write({
           url: 'https://zcap.example/items',
-          blob
+          body: blob
         });
       } catch(e) {
         error = e;
