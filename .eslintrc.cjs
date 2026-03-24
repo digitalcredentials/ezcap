@@ -8,6 +8,7 @@ module.exports = {
     'digitalbazaar/jsdoc',
     'digitalbazaar/module'
   ],
+  ignorePatterns: ['types/**'],
   rules: {
     'unicorn/prefer-node-protocol': 'error'
   }
