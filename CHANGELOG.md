@@ -1,6 +1,6 @@
 # @digitalcredentials/ezcap Changelog
 
-## 6.1.0 -
+## 6.1.0 - 2026-03-23
 ### Added
 - Add TypeScript type definitions.
 
