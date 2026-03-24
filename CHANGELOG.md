@@ -1,5 +1,9 @@
 # @digitalcredentials/ezcap Changelog
 
+## 6.1.0 -
+### Added
+- Add TypeScript type definitions.
+
 ## 6.0.0 - 2025-10-18
 ### Changed
 - **BREAKING**: Rename `blob` payload param to `body` to match upstream

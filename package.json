@@ -17,9 +17,16 @@
   },
   "license": "BSD-3-Clause",
   "type": "module",
-  "exports": "./lib/index.js",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./lib/index.js"
+    }
+  },
+  "types": "./types/index.d.ts",
   "files": [
-    "lib/**/*.js"
+    "lib/**/*.js",
+    "types/**/*.d.ts"
   ],
   "publishConfig": {
     "access": "public"
